@@ -355,3 +355,13 @@ span.available:before {
     margin-top: 60px;
     width: 470px;
 }
+
+/* Slider */
+
+#links img {
+    border: 1px solid #aaa;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
