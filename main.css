@@ -362,6 +362,7 @@ span.available:before {
     border: 1px solid #aaa;
     margin-right: 5px;
     margin-bottom: 5px;
+    vertical-align: top;
 }
 
 
