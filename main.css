@@ -42,10 +42,15 @@ h1 {
 h2 {
     font-family: Noto !important;
     color: #717171;
-    margin: -6px 0;
-    width: 400px;
+    margin:0;
 }
-
+img{
+	max-width:100%;
+}
+.container{
+	width:100%;
+	max-width:1170px;
+}
 /* ГАМНО */
 
 .middle_img {
@@ -62,11 +67,14 @@ h2 {
     padding: 30px 54px;
     font-weight: 100;
 }
-
+.ifrm-wrap iframe{
+	width:100%;
+	min-height:200px;
+	height:auto;
+}
 footer {
     position: relative;
     min-height: 240px;
-    width: 100vw;
     background-color: #484848;
     font-family: Noto !important;
 }
@@ -142,7 +150,7 @@ p {
 }
 
 p.bold {
-    margin-bottom: 0.75em;
+    margin-bottom: 0;
     font-size: 1.4em;
 }
 
@@ -190,18 +198,12 @@ p.bold {
     margin-top: 20px;
 }
 
-.container-fluid {
-    padding: 0 !important;
+.container-fluid {}
+.slider-sec{
+	background-color:#eaeaec;
 }
-
 .top {
-    width: 100vw;
-    min-height: 270px;
-    height: auto; 
-    background-image: url('images/top.png');
-    background-size: cover;
-    background-position: 35%;
-    margin: 0 0 40px 0;
+   margin: 0 0 40px 0;
 }
 
 @media screen and (max-width: 500px) {
@@ -291,6 +293,7 @@ img.next {
     color: white;
     text-align: center;
     font-size: 0.8em;
+	padding:10px;
 }
 
 #copyright a {
@@ -351,9 +354,7 @@ span.available:before {
 }
 
 #logo {
-    margin-left: 125px;
     margin-top: 60px;
-    width: 470px;
 }
 
 /* Slider */
@@ -364,5 +365,8 @@ span.available:before {
     margin-bottom: 5px;
     vertical-align: top;
 }
-
-
+@media (max-width:767px){
+.socials {
+    height: 140px;
+}
+}
