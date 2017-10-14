@@ -108,12 +108,16 @@ footer img {
 }
 
 ul {
-	padding-left: 2em; 
+	padding-left: 1.6em; 
 }
 
 ul li {
 	font-size: 1.2em;
+    margin-bottom: 0.25em;
+    text-align: justify;
     hyphens: auto;
+    hyphen-before: 4;
+    hyphen-after: 4;
 }
 
 .socials {
@@ -152,6 +156,7 @@ p {
 p.bold {
     margin-bottom: 0;
     font-size: 1.4em;
+    height: 2.5em;
 }
 
 @media screen and (max-width: 500px) {
