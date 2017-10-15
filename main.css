@@ -158,6 +158,7 @@ p.bold {
     height: 2.5em;
 }
 
+/*
 @media screen and (max-width: 500px) {
     h2 {
         text-align: center;
@@ -169,6 +170,8 @@ p.bold {
         text-align: center;
     }
 }
+
+*/
 
 .links {
     text-align: center;
