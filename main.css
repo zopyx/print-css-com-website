@@ -70,7 +70,6 @@ img{
 .ifrm-wrap iframe{
 	width:100%;
 	min-height:200px;
-	height:auto;
 }
 footer {
     position: relative;
